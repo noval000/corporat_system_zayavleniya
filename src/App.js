@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import LeftMenu from "./left_menu/left_menu";
+import PageAllShablon from "./right_page/page_all_shablon/page_all_shablon";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className="wrapper_left__menu">
+            <LeftMenu />
+        </div>
+        <div className="wrapper_right__shablon">
+            <PageAllShablon />
+        </div>
     </div>
   );
 }

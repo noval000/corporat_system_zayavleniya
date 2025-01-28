@@ -1,14 +1,14 @@
 import React from 'react';
-import './btnBehindOne2.css';
+import './btnBehindOne.css';
 
-const BtnBehindOneComponents2 = (props) => {
+const BtnBehindOneComponents = (props) => {
     return (
         <div className="btnBehindOne">
             <button onClick={() => {
-                props.setshowNextList(!props.showNextList)
+                props.setShowZagolovok(!props.showZagolovok)
             }}>Назад</button>
         </div>
     );
 };
 
-export default BtnBehindOneComponents2;
+export default BtnBehindOneComponents;

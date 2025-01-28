@@ -1,0 +1,77 @@
+.header_name__organization {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_text__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+}
+
+.header_text__right span input {
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    text-align: center;
+}
+
+.desc {
+    font-size: 8px;
+}
+
+.one_string, .two_string, .three_string {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thour_string {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nameUser {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header_name_pismo {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.title_pismo__left p {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.input_nomer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.input_nomer input {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.title_pismo__left .descPismo {
+    margin-top: 15px;
+    text-transform: initial;
+    font-weight: normal;
+    font-size: 14px;
+}

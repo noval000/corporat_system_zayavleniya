@@ -1,0 +1,17 @@
+.one_components__left {
+    width: 47%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: .5s all ease;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.one_components__left:hover {
+    background: #ccc;
+}
